@@ -1,0 +1,89 @@
+body{
+    font-family: Arial,  sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+
+}
+header{
+    background-color: #2a9d8f;
+    padding: 10px 0;
+    text-align: center;
+}
+h1.title{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+nav{
+    background-color:#2a9d8f ;
+    flex-direction: column;
+    padding: 10px 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+nav ul li{
+    margin: 0 100px;
+    padding-bottom: 2px;
+}
+nav ul li a{
+    color: black;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bolder;
+    
+    
+    font-style: inherit;
+}
+nav ul li a:hover{
+    color:rgb(10, 17, 229);
+}
+.timeline{
+    display: flex;
+    flex-direction: column;
+    align-items: 20px;
+    padding: 20px;
+}
+.event{
+    background-color: #fff;
+    border-left: 5px solid #2a9d8f;
+    padding: 20px;
+    margin: 15px;
+    width:180%;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+.event:hover{
+    transform: translateY(-5px);
+}
+.event-title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #2a9d8f;
+}
+.event-description{
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+footer{
+    background-color: #2a9d8f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

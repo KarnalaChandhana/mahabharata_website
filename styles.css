@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body a{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+   
+    color: #333;
+    line-height: 10;
+    
+}
+body {
+   
+    background: url('images/mahabharata-bg.jpg') no-repeat center  center/cover;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.7) ;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
+.main-heading h1{
+   
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+.main-heading p{
+    font-size: 1.5rem;
+    font-style: italic;
+    
+}
+nav{
+    
+    flex-direction: column;
+    padding: 10px 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+nav ul li{
+    margin: 0 100px;
+}
+nav ul li a{
+    color: rgb(23, 8, 96);
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    background-color: #fff;
+    font-style: inherit;
+}
+nav ul li a:hover{
+    color:rgb(10, 17, 229);
+}
+.welcome-section{
+    background-color:rgba(0, 0, 0.7, 0) ;;
+    padding: 0px;
+    text-align: center;
+    color: rgb(16, 52, 171);
+    font-weight: bold;
+    margin-top: 300px;
+    background-color: #d2faed;
+}
+.welcome-section p{
+    font-size: 1.2rem;
+    margin-top: 0px;
+    color: black;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
